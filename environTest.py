@@ -4,3 +4,17 @@
 import os
 import sys
 import re
+import subprocess as sb
+
+os.environ["AAA"] = "AaBb"
+
+print("Environ[AAA]={}".format(os.environ["AAA"]))
+print("Environ[BBB]={}".format(os.environ["BBB"]))
+
+ret = sb.check_output("export CCC='WWWwww'",shell=True,universal_newlines=True)
+ret = sb.check_output("bash environA.sh",shell=True,universal_newlines=True)
+
+aaa = ret.split('\n')
+for lines in aaa:
+   print("BASH={}".format(lines))
+

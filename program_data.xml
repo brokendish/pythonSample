@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<data>
+    <program name="bkd1">
+        <param>aaa</param>
+        <opt>2008</opt>
+        <mem>141100</mem>
+        <errlogfile>/hoge/log/Err/aaa.log</errlogfile>
+        <norlogfile>/hoge/log/Nor/aaa.log</norlogfile>
+    </program>
+    <program name="bkd2">
+        <param>bbb</param>
+        <opt>2011</opt>
+        <mem>59900</mem>
+        <errlogfile>/hoge/log/Err/bbb.log</errlogfile>
+    </program>
+    <program name="bkd3">
+        <param>ccc</param>
+        <opt>2011</opt>
+        <mem>13600</mem>
+        <errlogfile>/hoge/log/Err/ccc.log</errlogfile>
+        <norlogfile>/hoge/log/Nor/ccc.log</norlogfile>
+    </program>
+</data>
