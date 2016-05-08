@@ -8,7 +8,7 @@ import sys
 import re
 import inspect
 
-
+#aaaaaaaaa
 #------------------------------------------
 # 標準出力、エラー出力をログファイルに出力
 #------------------------------------------
@@ -146,6 +146,3 @@ if __name__ == '__main__':
    #プロセス名を指定してKILLする
    #起動プロセスは（watch --interval 0.5 ls -la
    ProcNameKill("watch")
-
-
-
